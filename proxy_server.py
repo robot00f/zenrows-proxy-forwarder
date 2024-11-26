@@ -7,7 +7,7 @@ from socketserver import ThreadingMixIn
 # External proxy configuration
 PROXY_HOST = "superproxy.zenrows.com"
 PROXY_PORT = 1337
-PROXY_AUTH = "QyzrrxXXDxwb:otromas_country-ar_ttl-24h_session-VIQ7LuInGQe5"
+PROXY_AUTH = "QyzrrxyuDxwb:otr4mVs_country-ar_ttl-24h_session-VIQ7fuIngQe5"
 
 class ProxyHTTPRequestHandler(BaseHTTPRequestHandler):
     def do_CONNECT(self):
